@@ -1,0 +1,126 @@
+* { scroll-padding-top: 50px;}
+.oddil{
+  display:flex;
+}
+.obr{
+  width: 270px;
+  height: 450px;
+  overflow: hidden;
+  background:#664e43;
+}
+header{
+  width: 650px;
+  height: 50px;
+  background: #2c231f;
+  margin: auto;
+  color:#d4c8c2;
+  font-family: 'GoudyHandtooled BT', sans-serif;
+  font-size: 23px;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0px;
+  left: 50%;
+  z-index: 1;
+  margin-left: -325px;
+}
+header span{
+  margin: 0px 10px 0px 10px;
+}
+a{
+  text-decoration: none;
+  color:#d4c8c2;
+}
+img{
+  width:270px;
+    
+}
+.head{
+  width:400px;
+  height: 150px;
+  position:absolute;
+  top: 250px;
+  left: 25%;
+  font-family: 'Bagnard', sans-serif;
+  color:#bfada5;
+}
+.line1{
+  font-size: 35px;
+  }
+.line2{
+  font-size: 65px;
+}
+main{
+  width: 650px;
+  margin: auto;
+  margin-top: 50px;
+  font-family: 'GoudyHandtooled BT', sans-serif;
+  color:#222;
+}
+.odstavec {
+  width: 350px;
+  margin-left:auto;
+  margin-right: auto;
+  padding-top:30px;
+  padding-bottom: 30px;
+  line-height: 1.6;
+}
+blockquote{
+  width:270px;
+  /*height:100%;*/
+  background:#40322c;
+  color: #bfada5;
+  margin:0px;
+  font-size: 45px;
+  font-family: 'Bagnard', sans-serif;
+  position:relative;
+}
+
+.znak{
+  position:absolute;
+  top: -30px;
+  left:5px;
+  font-size:120px;
+}
+
+.citace{
+  /*  width: 100%;*/
+  margin:auto;
+  padding:50px 10px 50px 35px;
+}
+h2{
+  text-transform: uppercase;
+}
+.achi{
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+h3
+{
+  margin-top: 25px;
+  margin-bottom: 0px;
+}
+.small {
+  font-size:85%;
+}
+.subt{
+  font-family: 'Nimbus Roman No9 L', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+.intro {
+   font-size:100%;
+}
+ul{
+  font-size:85%; 
+}
+li{
+  list-style-type:square;
+}
+hr{
+  height:3px;
+  width: 85%;
+  background: #2c231f;
+}
